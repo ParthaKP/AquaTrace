@@ -1,0 +1,40 @@
+{
+  "data_note": "Entire network is synthetic and for educational demonstration only; it is not field-verified.",
+  "junctions": [
+    {"junction_id":"J101","latitude":19.0760,"longitude":72.8777,"population_served":8200,"infrastructure_importance":78,"blockage_severity":20,"rainfall_intensity":35,"report_confidence":75,"blockage_status":"clear"},
+    {"junction_id":"J102","latitude":19.0770,"longitude":72.8780,"population_served":12500,"infrastructure_importance":92,"blockage_severity":85,"rainfall_intensity":90,"report_confidence":88,"blockage_status":"reported"},
+    {"junction_id":"J103","latitude":19.0780,"longitude":72.8790,"population_served":5400,"infrastructure_importance":55,"blockage_severity":15,"rainfall_intensity":45,"report_confidence":70,"blockage_status":"clear"},
+    {"junction_id":"J104","latitude":19.0790,"longitude":72.8800,"population_served":9600,"infrastructure_importance":68,"blockage_severity":25,"rainfall_intensity":40,"report_confidence":72,"blockage_status":"clear"},
+    {"junction_id":"J105","latitude":19.0800,"longitude":72.8810,"population_served":4800,"infrastructure_importance":48,"blockage_severity":10,"rainfall_intensity":30,"report_confidence":60,"blockage_status":"clear"},
+    {"junction_id":"J106","latitude":19.0810,"longitude":72.8820,"population_served":11200,"infrastructure_importance":85,"blockage_severity":30,"rainfall_intensity":50,"report_confidence":82,"blockage_status":"clear"},
+    {"junction_id":"J107","latitude":19.0820,"longitude":72.8830,"population_served":15700,"infrastructure_importance":95,"blockage_severity":20,"rainfall_intensity":52,"report_confidence":80,"blockage_status":"clear"},
+    {"junction_id":"J108","latitude":19.0830,"longitude":72.8840,"population_served":2500,"infrastructure_importance":35,"blockage_severity":75,"rainfall_intensity":72,"report_confidence":78,"blockage_status":"reported"},
+    {"junction_id":"J109","latitude":19.0840,"longitude":72.8850,"population_served":3300,"infrastructure_importance":40,"blockage_severity":10,"rainfall_intensity":25,"report_confidence":65,"blockage_status":"clear"},
+    {"junction_id":"J110","latitude":19.0850,"longitude":72.8860,"population_served":6100,"infrastructure_importance":60,"blockage_severity":20,"rainfall_intensity":38,"report_confidence":75,"blockage_status":"clear"},
+    {"junction_id":"J111","latitude":19.0860,"longitude":72.8870,"population_served":9000,"infrastructure_importance":72,"blockage_severity":35,"rainfall_intensity":56,"report_confidence":83,"blockage_status":"clear"},
+    {"junction_id":"J112","latitude":19.0870,"longitude":72.8880,"population_served":1500,"infrastructure_importance":25,"blockage_severity":5,"rainfall_intensity":18,"report_confidence":55,"blockage_status":"clear"},
+    {"junction_id":"J113","latitude":19.0880,"longitude":72.8890,"population_served":7600,"infrastructure_importance":66,"blockage_severity":20,"rainfall_intensity":41,"report_confidence":70,"blockage_status":"clear"},
+    {"junction_id":"J114","latitude":19.0890,"longitude":72.8900,"population_served":10500,"infrastructure_importance":88,"blockage_severity":30,"rainfall_intensity":48,"report_confidence":78,"blockage_status":"clear"},
+    {"junction_id":"J115","latitude":19.0900,"longitude":72.8910,"population_served":2800,"infrastructure_importance":32,"blockage_severity":15,"rainfall_intensity":28,"report_confidence":68,"blockage_status":"clear"},
+    {"junction_id":"J116","latitude":19.0910,"longitude":72.8920,"population_served":5400,"infrastructure_importance":58,"blockage_severity":22,"rainfall_intensity":44,"report_confidence":73,"blockage_status":"clear"},
+    {"junction_id":"J117","latitude":19.0920,"longitude":72.8930,"population_served":2000,"infrastructure_importance":30,"blockage_severity":8,"rainfall_intensity":20,"report_confidence":60,"blockage_status":"clear"},
+    {"junction_id":"J118","latitude":19.0930,"longitude":72.8940,"population_served":1800,"infrastructure_importance":28,"blockage_severity":12,"rainfall_intensity":25,"report_confidence":62,"blockage_status":"clear"},
+    {"junction_id":"J119","latitude":19.0940,"longitude":72.8950,"population_served":6700,"infrastructure_importance":63,"blockage_severity":28,"rainfall_intensity":46,"report_confidence":74,"blockage_status":"clear"},
+    {"junction_id":"J120","latitude":19.0950,"longitude":72.8960,"population_served":1400,"infrastructure_importance":22,"blockage_severity":5,"rainfall_intensity":15,"report_confidence":50,"blockage_status":"clear"}
+  ],
+  "connections": [
+    {"source":"J101","destination":"J102","capacity_lps":500,"channel_condition":"good"}, {"source":"J102","destination":"J103","capacity_lps":320,"channel_condition":"fair"},
+    {"source":"J102","destination":"J104","capacity_lps":280,"channel_condition":"fair"}, {"source":"J103","destination":"J105","capacity_lps":210,"channel_condition":"good"},
+    {"source":"J104","destination":"J106","capacity_lps":260,"channel_condition":"fair"}, {"source":"J105","destination":"J107","capacity_lps":300,"channel_condition":"good"},
+    {"source":"J106","destination":"J107","capacity_lps":310,"channel_condition":"good"}, {"source":"J108","destination":"J109","capacity_lps":180,"channel_condition":"poor"},
+    {"source":"J109","destination":"J110","capacity_lps":200,"channel_condition":"fair"}, {"source":"J110","destination":"J111","capacity_lps":230,"channel_condition":"good"},
+    {"source":"J111","destination":"J112","capacity_lps":190,"channel_condition":"fair"}, {"source":"J112","destination":"J113","capacity_lps":215,"channel_condition":"good"},
+    {"source":"J113","destination":"J114","capacity_lps":270,"channel_condition":"good"}, {"source":"J114","destination":"J115","capacity_lps":220,"channel_condition":"fair"},
+    {"source":"J115","destination":"J116","capacity_lps":240,"channel_condition":"good"}, {"source":"J117","destination":"J118","capacity_lps":130,"channel_condition":"fair"},
+    {"source":"J118","destination":"J119","capacity_lps":175,"channel_condition":"good"}, {"source":"J119","destination":"J120","capacity_lps":160,"channel_condition":"good"},
+    {"source":"J103","destination":"J106","capacity_lps":150,"channel_condition":"poor"}, {"source":"J105","destination":"J106","capacity_lps":145,"channel_condition":"fair"},
+    {"source":"J110","destination":"J113","capacity_lps":125,"channel_condition":"poor"}, {"source":"J112","destination":"J115","capacity_lps":140,"channel_condition":"fair"},
+    {"source":"J118","destination":"J120","capacity_lps":110,"channel_condition":"fair"}, {"source":"J102","destination":"J105","capacity_lps":240,"channel_condition":"good"},
+    {"source":"J108","destination":"J110","capacity_lps":155,"channel_condition":"poor"}, {"source":"J117","destination":"J119","capacity_lps":120,"channel_condition":"fair"}
+  ]
+}
